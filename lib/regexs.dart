@@ -16,4 +16,4 @@ RegExp alphaCharsRegex = RegExp(r'[a-zA-Z]');
 ///            a '/' (forward slash)
 ///       3) The year:
 ///           any combo of 2-4 numeric characters
-RegExp expDateFormat = RegExp(r'((0[1-9])|(1[0-2]))(/)+(\d{2,4})');
+RegExp expDateFormat = RegExp(r'((0?[1-9])|(1[0-2]))(/)+(\d{2,4})');
